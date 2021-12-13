@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fudbal</title>
+</head>
+<body>
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Sportovi</button>
+    <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Fudbal</a>
+    <a href="#about">Košarka</a>
+    <a href="#contact">Hokej</a>
+    <a href="#flew">Američki fudbal</a>
+  </div>
+  <div class="bet">
+    <input id="opklada" type="number">
+    <button type="button"  onclick="betting()">Šifra utakmice</button>
+    <p id="show"></p>
+    <input id="fix"> 
+    <button type="button" onclick="unos()">Opklada</button>
+    <p id="ver"></p>
+    <br>
+    
+  </div>
+  <br>
+    <ol>
+        <li>Premier Liga-Engleska</li>
+        <li>Seria A-Italija</li>
+        <li>Linglong Super Liga-Srbija</li>
+        <li>Bundes Liga-Nemačka</li>
+        <li>Liga 1-Francuska</li>
+        <li>Premijer Liga-Škotska</li>
+        <li>Prva Divizija-Holandija</li>
+      </ol>
+     <div class="box"> 
+    <table>
+       <tr>
+           <th>Šifra utakmice</th>
+         <th>Utakmice</th>
+        </tr>
+        <tr>
+          <td>1000</td>
+          <td>Liverpul-Lester Siti</td>
+          </tr>
+          <tr>
+              <td>1001</td>
+             <td>Man.Junajted-Čelsi</td>
+            </tr>
+          <tr>
+              <td>1002</td>
+              <td>Njukasl-Koventri</td>
+          </tr>
+          <tr>
+            <td>1003</td>
+            <td>Man.Siti-Everton</td>
+         </tr>
+         <tr>
+             <td>1004</td>
+             <td>Lids-Vulverhepton</td>
+            </tr>
+            <tr>
+                <td>1005</td>
+                <td>Midlsbro-Arsenal</td>
+            </tr>
+            <tr>
+                <td>1006</td>
+                <td>Totenhem H.-Kristal Palas</td>
+           </tr>
+           <tr>
+             <td>1007</td>
+            <td>Sautepmton-Aston Vila</td>
+           </tr>
+    </table>
+      <br>
+    <table>
+       <tr>
+           <th>Šifra utakmice</th>
+           <th>Utakmica</th>
+       </tr>
+       <tr>
+        <td>2000</td>
+        <td>Lacio-Peruđa</td>
+       </tr>
+        <tr>
+         <td>2001</td>
+         <td>Inter-Breša</td>
+        </tr>
+        <td>2002</td>
+        <td>Kaljari-Roma</td>
+        <tr>
+            <td>2003</td>
+         <td>Juventus-Parma</td>
+        </tr>
+        <tr>
+         <td>2004</td>
+         <td>Fiorentina-Atalanta</td>
+        </tr>
+          <tr>
+            <td>2005</td>  
+            <td>Palermo-Bolonja</td>
+          </tr>
+          <tr>
+            <td>2006</td>
+            <td>Udineze-Sampdorija</td>
+        </tr>
+    </table>
+<table>
+    <tr>
+        <th>Šifra utakmice</th>
+        <th>Utakmica</th>
+    </tr>
+    <tr>
+      <td>3000</td>
+      <td>Partizan-Javor</td>
+    </tr>
+    <tr>
+        <td>3001</td>
+        <td>Mladi radnik-Vojvodina</td>
+     </tr>
+     <tr>
+       <td>3002</td>
+       <td>C.Zvezda-Radnički Niš</td>
+     </tr>
+     <tr>
+      <td>3003</td>
+      <td>Zemun-OFK Beograd</td>
+     </tr>
+     <tr>
+     <td>3004</td>
+     <td>Surdulica-Rad</td>
+     </tr>
+     <tr>
+       <td>3005</td>
+       <td>Mladost-Borac</td>
+     </tr>
+</table>
+<table>
+  <th>Šifra utakmice</th>
+  <th>Utakmica</th>
+<tr>
+  <td>4000</td>
+  <td>Hamburg-Bremen</td>
+</tr>
+<tr>
+    <td>4001</td>
+    <td>Borusija D.-Ajntraht</td>
+</tr>
+<tr>
+    <td>4002</td>
+    <td>Mgladbah-Bajern Min.</td>
+    </tr>
+    <tr>
+        <td>4003</td>
+        <td>Hofenhajm-Majnc</td>
+    </tr>
+    <tr></tr>
+      <td>4004</td>
+      <td>Frajburg-Augsburg</td>
+      <tr>
+          <td>4005</td>
+          <td>Bohum-Herta</td>
+      </tr>
+      <tr>
+          <td>4006</td>
+          <td>Keln-Leverkuzen</td>
+      </tr>
+      <tr>
+        <td>4007</td>
+        <td>Štutgart-Grojter</td>
+    </tr>
+</table>
+<table>
+    <tr>
+       <th>Šifra utakmice</th>
+       <th>Utakmica</th> 
+    </tr>
+    <tr>
+        <td>5000</td>
+        <td>Nant-Tuluz</td>
+    </tr>
+    <tr>
+        <td>5001</td>
+        <td>PSŽ-Bordo</td>
+    </tr>
+      <tr>
+          <td>5002</td>
+          <td>Monako-Monpelje</td>
+      </tr>
+      <tr>
+          <td>5003</td>
+          <td>Strazbur-Lion</td>
+      </tr>
+      <tr>
+          <td>5005</td>
+          <td>Lil-Marsej</td>
+      </tr>
+      <tr>
+          <td>5006</td>
+          <td>Klermont-Rems</td>
+      </tr>
+</table>
+</div>
+
+<div class="cube">
+   <table>
+    <tr>
+     <th>Šifra utakmice</th>
+     <th>Utakmica</th>
+</tr>
+<tr>
+  <td>6001</td>
+  <td>Rendžers-Hibernian</td>
+</tr>
+<tr>
+  <td>6002</td>
+  <td>Aberdin-Ros Kaunti</td>
+</tr>
+<tr>
+  <td>6003</td>
+  <td>St.Miren-Dandi</td>
+</tr>
+<tr>
+ <td>6004</td>
+ <td>Livingston-Seltik</td>
+</tr>
+<tr>
+  <td>6005</td>
+  <td>Matervil-St. Džonson</td>
+</tr>
+<tr>
+  <td>6006</td>
+  <td>Midlotian-St.Miren</td>
+ </tr>
+</table>
+<table>
+  <tr>
+  <th>Šifra utakmice</th>
+  <th>Utakmica</th>
+  </tr>
+  <tr>
+    <td>7000</td>
+    <td>Vitese-Utreht</td>
+  </tr>
+  <tr>
+    <td>7001</td>
+    <td>Tvente-Nijemegen</td>
+  </tr>
+  <tr>
+    <td>7002</td>
+    <td>Viliem II-Kambur Leuvarden</td>
+  </tr>
+  <tr>
+    <td>7003</td>
+    <td>Alkmar-Groningem</td>
+  </tr>
+  <tr>
+    <td>7004</td>
+    <td>G.Ahed Igls-Ajaks</td>
+  </tr>
+  <tr>
+    <td>7005</td>
+    <td>Herenvin-PSV Ajndhoven</td>
+  </tr>
+  <tr>
+    <td>7006</td>
+    <td>Fejnord-Herakles Almelo</td>
+  </tr>
+</table>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
